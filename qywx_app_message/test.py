@@ -2,13 +2,13 @@ from qywx_app_message import *
 
 
 # 企业id，在这里获取 https://work.weixin.qq.com/wework_admin/frame#profile 最下面的企业ID就是
-corpid = "wweebf3fe9cc359308"
+corpid = ""
 # 在应用管理最下面新建应用
 # 创建好后打开引用界面，agentid就是
-agentid = "1000002"
+agentid = ""
 # 点击 Secret的查看
 # 在点击 发送Secret到企业微信中查看，然后在企业微信中查看
-corpsecret = "WVWWr0x0cwhF4Dhrb-17zTSlLyYId0BMQ1Du46NXoBM"
+corpsecret = ""
 
 # 生成实例
 wxclient = qywx_app_message(corpid, agentid, corpsecret)
